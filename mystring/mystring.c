@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <mystring.h>
 
 char* mystrcpy (const char* src, char* dest)
 {
