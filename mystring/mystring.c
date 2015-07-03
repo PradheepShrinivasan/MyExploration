@@ -28,7 +28,7 @@ int mystrlen (const char* src)
 	return length;
 }
 
-extern char* mystrncpy (const char* src, char* dest, int len)
+char* mystrncpy (const char* src, char* dest, int len)
 {
 	char *iter = dest;
 	if (!src || !dest || len <= 0)
